@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions", "RegularExpressions\RegularExpressions.csproj", "{870C58AE-8937-45D7-AD1C-D5C4E3187AB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{56511904-293C-4C43-854D-F377AC88CC78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{870C58AE-8937-45D7-AD1C-D5C4E3187AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{870C58AE-8937-45D7-AD1C-D5C4E3187AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{870C58AE-8937-45D7-AD1C-D5C4E3187AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56511904-293C-4C43-854D-F377AC88CC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56511904-293C-4C43-854D-F377AC88CC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56511904-293C-4C43-854D-F377AC88CC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56511904-293C-4C43-854D-F377AC88CC78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
