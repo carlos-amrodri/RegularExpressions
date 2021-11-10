@@ -43,5 +43,11 @@ namespace RegularExpressions
             MessageBox.Show(resultado);
         }
 
+        private void btnSubcadenas_Click(object sender, EventArgs e)
+        {
+            Subcadenas subcadenas = new Subcadenas(textSubcadena.Text, textPatternSubcadena.Text);
+            List<string> resultado = subcadenas.getCoincidencias();
+            listBoxSubcadena.DataSource = resultado;
+        }
     }
 }
